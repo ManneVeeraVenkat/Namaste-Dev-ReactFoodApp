@@ -1,0 +1,214 @@
+/*[/*
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 130px;
+}
+
+.button {
+  width: 80px;
+  border-radius: 7px;
+  padding: auto;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration-color: #12e6a6;
+}
+
+.link {
+  text-decoration: none;
+  color: blue;
+  /* Change the color to your desired link color */
+/* cursor: pointer; */
+/* }
+
+.nav-items {
+  padding: 0px 20px;
+}
+
+.nav-items ul {
+  font-size: 20px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items ul li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-container {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Align items in the center horizontally */
+/* } */
+
+/* .res-card {
+  background-color: lightgray;
+  margin: 5px;
+  padding: 8px;
+  /* Reduce padding for smaller card */
+/* width: 160px; */
+/* Reduce width for smaller card */
+/* border-radius: 5px; */
+/* Add rounded corners */
+/* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+/* Add a subtle shadow */
+/* transition: box-shadow 0.3s, z-index 0.3s;
+  /* Smooth transition for hover effect */
+/* position: relative; */
+*/
+/* Enable z-index */
+/* } */
+*/
+/* .res-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* Increase shadow on hover */
+/* cursor: pointer; */
+/* z-index: 1; */
+/* Bring the hovered card to the front */
+/* } */
+*/
+/* .res-logo {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the entire space */
+/* border-top-left-radius: 5px;
+  /* Add rounded corners to the logo */
+/* border-top-right-radius: 5px; */
+*/
+/* } */
+*/
+/* .res-details-container {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  /* Add top border for separation */
+/* } */
+*/
+/* .res-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+} */
+/* 
+.res-info {
+  display: flex;
+  flex-direction: column;
+} */
+/* 
+.res-cuisines {
+  color: #666;
+  margin-bottom: 5px;
+} */
+
+/* .res-rating {
+  color: #12e6a6;
+  margin-bottom: 5px;
+  font-weight: bold;
+} */
+
+/* .res-cost {
+  color: #999;
+  margin-bottom: 5px;
+}
+
+.res-delivery-time {
+  color: #16cc71;
+  font-weight: bold;
+} */
+/* 
+.search {
+  display: flex;
+  justify-content: center;
+  /* Align items horizontally at the center */
+/* align-items: center; */
+/* Align items vertically at the center */
+/* margin-bottom: 20px; */
+/* Adjust margin as needed */
+/* } */
+*/
+/* .search-box {
+  width: 200px;
+  /* Set width of the search box */
+/* padding: 8px; */
+/* Adjust padding as needed */
+/* border: 1px solid #ccc; */
+/* Add border for the search box */
+/* border-radius: 5px; */
+/* Add border radius for rounded corners */
+/* margin-right: 10px; */
+/* Add margin to separate from button */
+/* } */
+*/
+/* 
+.search-button {
+  padding: 8px 16px;
+  /* Adjust padding as needed */
+/* background-color: #007bff; */
+/* Set background color for the button */
+/* color: #fff; */
+/* Set text color for the button */
+/* border: none; */
+/* Remove border */
+/* border-radius: 5px; */
+/* Add border radius for rounded corners */
+/* cursor: pointer; */
+/* Add pointer cursor */
+/* } */
+*/
+/* 
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+} */
+
+/* .about-content p {
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+/* .contact-info {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+} */
+
+/* .contact-details {
+  margin-top: 20px;
+} */
+
+/* .contact-details p {
+  margin-bottom: 10px;
+}
+]*/
