@@ -40,7 +40,7 @@ const Body = () => {
   return (
     <>
       <div className="flex items-center justify-center">
-        <div className="m-2 p-4 mx-auto text-center">
+        <div className="m-2 p-4 mx-auto text-center relative">
           <input
             type="text"
             className="border border-solid border-gray-500 border-r-2 p-3 h-12 w-80 rounded-lg"
@@ -48,6 +48,18 @@ const Body = () => {
             onChange={searchRestaruent}
             placeholder="Search restaurants..."
           />
+          {searchText && (
+            <ul className="autocomplete-list absolute top-full left-4 bg-white border border-gray-300 shadow-md w-80 rounded-lg -mt-4">
+              {filteredListOfRestraunts.map((restaurant, index) => (
+                <li
+                  key={`${restaurant.id}-${index}`}
+                  className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                >
+                  {restaurant.info.name}
+                </li>
+              ))}
+            </ul>
+          )}
           {/* <button
               className="search-button"
               onClick={() => {
